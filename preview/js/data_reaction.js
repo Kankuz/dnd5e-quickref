@@ -1,15 +1,15 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Ataque de Oportunidade",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Um inimigo sai do seu alcance",
+        description: "Raramente você pode se movimentar descuidadamente pelos seus inimigos sem se colocar em perigo",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Reação à: Um inimigo sai do seu alcance.",
+            "Faça um ataque corpo-a-corpo contra a criatura que provocou a reação.",
+            "O ataque interrompe o movimento da criatura, ocorrendo logo antes da criatura sair do seu alcance.",
+            "Criaturas não provocam ataques de oportunidade quando se teleportam ou quando algo ou alguém as move sem usar seu movimento, ação ou reação."
         ]
     },
     {
@@ -23,14 +23,14 @@ data_reaction = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lançar uma magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Tempo de lançamento de 1 reação",
+        description: "Lance uma magia cujo tempo de lançamento seja uma reação",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Reação à: specificado pela magia.",
+            "Para mais detalhes, veja a ação <i>Lançar uma Magia</i>."
         ]
     }
 ]
