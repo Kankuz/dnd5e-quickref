@@ -1,34 +1,34 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Ataque com a outra mão",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Use com a ação de Ataque",
+        description: "Ataque com sua outra mão",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Somente usável se você usar a ação de <i>Ataque</i> e atacar com uma arma de corpo-a-corpo leve que você esteja segurando em uma mão.",
+            "Faça um único ataque como uma arma de corpo-a-corpo leve diferente que você esteja segurando na sua outra mão.",
+            "Você não adiciona seu modificador de atributo ao dano desse ataque bônus, a não ser que esse modificador seja negativo.",
+            "Se uma das duas armas tiver a propriedade de arremesso, você pode arremessar a arma, ao invés de fazer um ataque corpo-a-corpo com ela."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lançar uma Magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Tempo de lançamento de 1 ação bônus",
+        description: "Lance uma magia cujo tempo de lançamento seja uma ação bônus",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Você não pode lançar uma magia com sua ação e lançar uma magia diferente com sua ação bônus no mesmo turno, exceto se a ação for usada para lançar um truque.",
+            "Para mais detalhes, veja a ação <i>Lançar uma Magia</i>."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usar habilidade de classe",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Algumas habilidades usam ações bônus",
+        description: "Use uma habilidade de classe ou racial que seja uma ação bônus",
+        reference: "Veja a página da sua classe para mais informações.",
         bullets: [
 
         ]
