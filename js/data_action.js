@@ -1,6 +1,6 @@
 data_action = [
     {
-        title: "Atacar",
+        title: "Attack",
         icon: "crossed-swords",
         subtitle: "Ataque corpo-a-corpo ou à distância",
         description: "Faça um ataque corpo-a-corpo ou à distância com sua arma",
@@ -36,7 +36,6 @@ data_action = [
             "Usando a ação de <i>Atacar</i>, você pode realizar um ataque corpo-a-corpo especial para empurrar uma criatura. Se você for capaz de realizar múltiplos ataques com uma ação, esse ataque subistitui um deles.",
             "O alvo do seu empurrão deve ser no máximo uma categoria de tamanho maior que você, e deve estar dentro do seu alcance.",
             "Faça um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acobacias) do alvo (O alvo escolhe qual atributo usar).",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "Caso tenha sucesso, você derruba a criatura no chão ou a empurrar 1,5 metros para longe de você."
         ]
     },
