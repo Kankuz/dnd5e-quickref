@@ -1,6 +1,6 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Ataque",
         icon: "crossed-swords",
         subtitle: "Ataque corpo-a-corpo ou à distância",
         description: "Faça um ataque corpo-a-corpo ou à distância com sua arma",
@@ -53,20 +53,20 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Correr",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Dobre sua velocidade de movimento",
+        description: "Ganhe movimento extra por uma rodada",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "O aumento é igual a sua velocidade, após serem aplicados quais modificadores."
         ]
     },
     {
-        title: "Disengage",
+        title: "Desengajar",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Previne ataques de oportunidade",
+        description: "Seu movimento não provoca ataques de oportunidade pelo resto do turno",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
