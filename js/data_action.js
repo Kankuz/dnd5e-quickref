@@ -48,8 +48,8 @@ data_action = [
         reference: "PHB, pg. 192.",
         bullets: [
             "Você não pode lançar uma magia com sua ação e lançar uma magia diferente com sua ação bônus no mesmo turno, exceto se a ação for usada para lançar um truque.",
-            "O alvo da magia deve estar dentro do alcance da mesma. Para alvejar algo, você deve ter um caminho livre até o alvo, logo, ele não pode estar atrás de uma proteção completa.
-            "Magias que precisam e componentes materiais não consomem tais componentes a não ser que explicitamente dito. A não ser que um custo de material esteja descriminado, você pode assumir que esse custo é ínfimo e os materiais estão disponível na sua bolsa de componentes.
+            "O alvo da magia deve estar dentro do alcance da mesma. Para alvejar algo, você deve ter um caminho livre até o alvo, logo, ele não pode estar atrás de uma proteção completa.",
+            "Magias que precisam e componentes materiais não consomem tais componentes a não ser que explicitamente dito. A não ser que um custo de material esteja descriminado, você pode assumir que esse custo é ínfimo e os materiais estão disponível na sua bolsa de componentes.",
             "Algumas magias requerem que você mantenha concentração de forma a manter seus efeitos ativos. Se você perder a concentração, esses efeitos terminam. Você perde a concentração em uma magia se você lançar outra magia que precise de concentração ou quando você ficar incapacitado. Cada vez que você sofrer dano, você deve fazer um teste de resistência de Constituição para manter a concentração. O DC é igual ao maior número entre 10 ou metade do dano que você sofrer."
         ]
     },
