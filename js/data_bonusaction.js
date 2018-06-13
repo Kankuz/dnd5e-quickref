@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "Ataque com a outra mão",
+        title: "Atacar com a outra mão",
         icon: "crossed-swords",
         subtitle: "Use com a ação de Ataque",
         description: "Ataque com sua outra mão",
