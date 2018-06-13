@@ -1,55 +1,56 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Atacar",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Ataque corpo-a-corpo ou à distância",
+        description: "Faça um ataque corpo-a-corpo ou à distância com sua arma",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Algumas habilidades, como o <i>Ataque Extra</i> do Guerreiro, te permitem realizar mais de um ataque com essa ação. Cada um desses ataques requer uma rolada separada e pode alvejar criaturas diferentes. Você pode se mover no meio desses ataques.",
+            "Quando você ataca com uma arma corpo-a-corpo leve, você pode usar uma ação bônus para atacar com sua outra mão (veja a ação bônus <i>Atacar com a outra mão</i>).",
+            "Você pode substituir um dos seus ataques corpo-a-corpo por um <i>Agarrão</i> ou um <i>Empurrão</i>.",
+            "Algumas condições lhe concedem vantagem no ataque: ataques contra alvos cegos, paralisados, petrificados, imobilizados, atordoados ou inconscientes; ataques contra alvos caídos; ataques feitos por criaturas invisíveis ou escondidas.",
+            "Algumas condições lhe impõe desvantagem no ataque: ataques contra alvos invisíveis ou escondidos; ataques à distância contra alvos caídos; Ataques por criaturas que estejam cegas, amedrontadas, envenenadas ou imobilizadas."
         ]
     },
     {
-        title: "Grapple",
+        title: "Agarrar",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Ataque corpo-a-corpo especial",
+        description: "Tentativa de agarrra uma criatura",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Você pode usar a ação de <i>Atacar</i> para realizar um ataque corpo-a-corpo especial, um agarrão. Se você for capaz de realizar múltiplos ataques com uma ação, esse ataque subistitui um deles.",
+            "O alvo do seu agarrão deve ser no máximo uma categoria de tamanho maior que você, e deve estar dentro do seu alcance.",
+            "Usando pelo menos uma mão livre, você tenta agarrar o alvo, fazendo um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acobacias) do alvo (O alvo escolhe qual atributo usar).",
+            "Caso tenha sucesso, você impõe a condição de agarrado ao alvo (sua velocidade fica reduzida a 0)."
         ]
     },
     {
-        title: "Shove",
+        title: "Empurrar",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Ataque corpo-a-corpo especial",
+        description: "Empurre uma criatura, derrubando no chão ou a empurrando para longe de você",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
+            "Usando a ação de <i>Atacar</i>, você pode realizar um ataque corpo-a-corpo especial para empurrar uma criatura. Se você for capaz de realizar múltiplos ataques com uma ação, esse ataque subistitui um deles.",
+            "O alvo do seu empurrão deve ser no máximo uma categoria de tamanho maior que você, e deve estar dentro do seu alcance.",
+            "Faça um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acobacias) do alvo (O alvo escolhe qual atributo usar).",
             "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "Caso tenha sucesso, você derruba a criatura no chão ou a empurrar 1,5 metros para longe de você."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lançar uma magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Tempo de lançamento de 1 ação",
+        description: "Lance uma magia cujo tempo de lançamento seja uma ação",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Você não pode lançar uma magia com sua ação e lançar uma magia diferente com sua ação bônus no mesmo turno, exceto se a ação for usada para lançar um truque.",
+            "O alvo da magia deve estar dentro do alcance da mesma. Para alvejar algo, você deve ter um caminho livre até o alvo, logo, ele não pode estar atrás de uma proteção completa.
+            "Magias que precisam e componentes materiais não consomem tais componentes a não ser que explicitamente dito. A não ser que um custo de material esteja descriminado, você pode assumir que esse custo é ínfimo e os materiais estão disponível na sua bolsa de componentes.
+            "Algumas magias requerem que você mantenha concentração de forma a manter seus efeitos ativos. Se você perder a concentração, esses efeitos terminam. Você perde a concentração em uma magia se você lançar outra magia que precise de concentração ou quando você ficar incapacitado. Cada vez que você sofrer dano, você deve fazer um teste de resistência de Constituição para manter a concentração. O DC é igual ao maior número entre 10 ou metade do dano que você sofrer."
         ]
     },
     {
