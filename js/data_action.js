@@ -181,7 +181,7 @@ data_action = [
         description: "Faça qualquer ação que você possa imaginar",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Quando você descrever uma ação que não está detalhada nas regras, o Mestre te diz se essa ação é possível e quais os critérios, se houver, para determinar o sucesso ou fracasso."
+            "Quando você descrever uma ação que não está detalhada nas regras, o Mestre te diz se essa ação é possível e quais os critérios, se houver, para determinar o sucesso ou fracasso.",
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
     }
