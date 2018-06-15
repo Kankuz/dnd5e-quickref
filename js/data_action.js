@@ -22,7 +22,7 @@ data_action = [
         bullets: [
             "Você pode usar a ação de <i>Atacar</i> para realizar um ataque corpo-a-corpo especial, um agarrão. Se você for capaz de realizar múltiplos ataques com uma ação, esse ataque subistitui um deles.",
             "O alvo do seu agarrão deve ser no máximo uma categoria de tamanho maior que você, e deve estar dentro do seu alcance.",
-            "Usando pelo menos uma mão livre, você tenta agarrar o alvo, fazendo um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acobacias) do alvo (O alvo escolhe qual atributo usar).",
+            "Usando pelo menos uma mão livre, você tenta agarrar o alvo, fazendo um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acrobacias) do alvo (O alvo escolhe qual atributo usar).",
             "Caso tenha sucesso, você impõe a condição de agarrado ao alvo (sua velocidade fica reduzida a 0)."
         ]
     },
@@ -35,7 +35,7 @@ data_action = [
         bullets: [
             "Usando a ação de <i>Atacar</i>, você pode realizar um ataque corpo-a-corpo especial para empurrar uma criatura. Se você for capaz de realizar múltiplos ataques com uma ação, esse ataque subistitui um deles.",
             "O alvo do seu empurrão deve ser no máximo uma categoria de tamanho maior que você, e deve estar dentro do seu alcance.",
-            "Faça um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acobacias) do alvo (O alvo escolhe qual atributo usar).",
+            "Faça um teste de Força (Atlética) contestado pela Força (Atlética) ou Destreza (Acrobacias) do alvo (O alvo escolhe qual atributo usar).",
             "Caso tenha sucesso, você derruba a criatura no chão ou a empurrar 1,5 metros para longe de você."
         ]
     },
@@ -59,7 +59,7 @@ data_action = [
         description: "Ganhe movimento extra por uma rodada",
         reference: "PHB, pg. 192.",
         bullets: [
-            "O aumento é igual a sua velocidade, após serem aplicados quais modificadores."
+            "O aumento é igual a sua velocidade, após serem aplicados quaisquer modificadores."
         ]
     },
     {
@@ -72,115 +72,116 @@ data_action = [
         ]
     },
     {
-        title: "Dodge",
+        title: "Esquivar",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Aumenta sua chance de se defender",
+        description: "Foque completamente em esquivar dos ataques",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "Até o começo do seu próximo turno, qualquer ataque feito contra você tem desvantagem se você puder ver o atacante, e você faz testes de resistência de Destreza com vantagem.",
+            "Você perde esse benefício se estiver <i>incapacitado</i> ou se sua velocidade cair para zero."
         ]
     },
     {
-        title: "Escape",
+        title: "Escapar",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "Escapar de um agarrão",
+        description: "Escapar de um agarrão",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "Para escapar de um agarrão, você deve obter sucesso em um teste de Força (Atlética) ou Destreza (Acrobacias) contestado pela Força (Atlética) de estiver te segurando.",
+            "Escapar de outras condições que o estejam restringindo (como algemas) pode requerir testes de Força ou Destreza, especificados pelas condições."
         ]
     },
     {
-        title: "Help",
+        title: "Ajudar",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Conceder vantagem a um aliado",
+        description: "Conceder vantagem a um aliado em um teste de atributo ou ataque",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "O alvo ganha vantagem no seu próximo teste de atributo que ele realizar na tarefa em que você está ajudando.",
+            "Alternativamente, o alvo ganho vantagem no seu próximo ataque contra uma criatura que esteja a 1,5 metros de você.",
+            "A vantagem dura até o começo do seu próximo turno."
         ]
     },
     {
-        title: "Use Object",
+        title: "Usar Objeto",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Interagir, usar habilidades especiais",
+        description: "Interagir com um segundo objeto ou usar suas habilidades especiais",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "Você pode interagir com um objeto de graça no seu turno (como sacar uma arma ou abrir uma porta). Se você quiser interagir com um segundo objeto, use essa ação.",
+            "Quando um objeto requer uma ação para ser usado, você também toma esta ação."
         ]
     },
     {
-        title: "Use shield",
+        title: "Usar escudo",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "Equipar ou desequipar um escudo",
+        description: "Equipar ou desequipar um escudo",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Um escudo sempre requer uma ação para equipar ou desequipar.",
+            "Armadura demora alguns minutos para se equipar ou desequipar."
         ]
     },
     {
-        title: "Hide",
+        title: "Esconder-se",
         icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
+        subtitle: "Tente se esconder",
+        description: "Tente se esconder",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Você não pode se esconder de uma criatura que pode te ver. Você deve ter proteção total, estar em uma área completamente obscurecida, estar invisível ou bloquear a visão do inimigo.",
+            "Se você fizer barulho (como gritar um aviso ou derrubar um vaso), você revela sua posição.",
+            "Quando você tentar se esconder, faça um teste de Destreza (Furtividade) e anote o resultado. Até você ser descoberto ou parar de se esconder, o resultado do teste é contestado pela Sabedoria (Percepção) de qualquer criatura que ativamente procure por sinais da sua presença.",
+            "Uma criatura pode te encontrar mesmo que não esteja procurando ativamente portanto que tenha uma percepção passiva maior que seu resultado.",
+            "Fora de combate, você também pode fazer um testes de Destreza (Furtividade) para ações como se esconcer dos seus inimigos, passar despercebido por guardas, fugir sem ser detectado ou esgueirar-se até alguém sem ser visto ou ouvido."
         ]
     },
     {
-        title: "Search",
+        title: "Procurar",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
+        subtitle: "Concentre sua atenção em encontrar algo",
+        description: "Concentre sua atenção em encontrar algo",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "Dependendo da natureza da sua busca, o Mestre pode pedir um teste de Sabedoria (Percepção) ou um de Inteligência (Investigação)."
         ]
     },
     {
-        title: "Ready",
+        title: "Prepara uma ação",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Escolha um gatilho e uma ação",
+        description: "Escolha um gatilho e uma ação",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Primeiramente, você decide qual circustância perceptível será o gatilho da sua reação.",
+            "Após, você escolhe a ação que irá tomar em resposta a esse gatilho, ou você pode optar por se mover até sua velocidade em resposta.",
+            "Quando o gatilho ocorrer, você pode tomar sua reação logo após o gatilho terminar ou ignorá-lo.",
+            "Quando você preparar uma magia, você pode lançá-la normalmente mas reter sua energia, que você libera na sua reação quando o gatilho ocorrer. Para ser preparada, uma magia deve ter o tempo de lançamento de 1 ação, e reter uma magia requer concentração."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usar Habilidade de classe",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Algumas habilidades usam ações",
+        description: "Use uma Habilidade de classe ou racial que seja uma ação",
+        reference: "Veja a página da sua classe para mais informações.",
         bullets: [
 
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisar",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Qualquer ação que não esteja nessa lista",
+        description: "Faça qualquer ação que você possa imaginar",
         reference: "PHB, pg. 193.",
         bullets: [
+            "Quando você descrever uma ação que não está detalhada nas regras, o Mestre te diz se essa ação é possível e quais os critérios, se houver, para determinar o sucesso ou fracasso."
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
     }
